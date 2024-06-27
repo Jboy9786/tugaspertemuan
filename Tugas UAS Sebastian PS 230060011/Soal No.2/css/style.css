@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: black;
+    padding: 10px 0;
+}
+.header-contact {
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.header-contact2 {
+    float: right;
+    text-align: center;
+    margin-block: 10px;
+    padding: 10px;
+    border-right: thin solid;
+}
+img.logo {
+    float: left;
+    margin-left: 100px;
+    width: 90px;
+    height: 60px;
+    margin-right: 40px;
+    padding: 10px;
+    border-right: thin solid;
+}
+img.Scene {
+    height: 400px;
+    width: 800px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+img.product {
+    height: 100px;
+    width: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.contact-icon {
+    width: 30px;
+    height: 30px;
+}
+nav {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 5px;
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 100px;
+    text-align: left;
+}
+nav ul li {
+    display: inline;
+    width: 20%;
+    padding: 0 1em;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 1em 0;
+}
+nav ul li a.selected {
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+.promotion {
+    background-image: url('img_promotional.jpeg');
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+.promotion h1 {
+    text-align: left;
+    color: white;
+    padding: 60px 12px;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    font-size: 2.5em;
+}
+.promotion p {
+    text-align: left;
+    color: white;
+    padding: 60px 12px;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    font-size: 1.2em;
+}
+.promotion button {
+    background-color: #FFC107;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.vision-mission {
+    padding: 50px;
+    text-align: left;
+}
+.vision-mission h2 {
+    margin-left: 20px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.vision-mission p, .vision-mission ol {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.portfolio, .products {
+    text-align: center;
+    padding: 50px 0;
+}
+.portfolio-item, .product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.portfolio-item img, .product-item img {
+    max-width: 100%;
+    height: auto;
+}
+.product-list {
+    margin-top: 20px;
+}
+.product-item {
+    margin: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer p, footer ul {
+    margin: 0;
+    padding: 0;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    margin: 5px 0;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-promotion form {
+    display: flex;
+    flex-direction: column;
+}
+.footer-promotion input, .footer-promotion button {
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+}
+.footer-promotion button {
+    background-color: #FFC107;
+    cursor: pointer;
+}
