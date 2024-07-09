@@ -1,0 +1,120 @@
+body {
+    background: #35a9db;
+    font-family: roboto;
+    text-align: center;
+    color: #fff;
+}
+.center {
+    margin: 10px auto;
+    width: 1150px;
+}
+
+@font-face {
+    font-family: 'cool1-font';
+    src: url(../font/ClassCoder.ttf);
+}
+
+.special-font {
+    font-family: 'cool1-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool2-font';
+    src: url(../font/FactoryLJDS.ttf);
+}
+
+.special-font {
+    font-family: 'cool2-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool3-font';
+    src: url(../font/AeroSans.ttf);
+}
+
+.special-font {
+    font-family: 'cool3-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool4-font';
+    src: url(../font/airstrike3d.ttf);
+}
+
+.special-font {
+    font-family: 'cool4-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool5-font';
+    src: url(../font/AstraGoldie.ttf);
+}
+
+.special-font {
+    font-family: 'cool5-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool6-font';
+    src: url(../font/AstralZenith.ttf);
+}
+
+.special-font {
+    font-family: 'cool6-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool7-font';
+    src: url(../font/Balingka\ Personal\ Use.ttf);
+}
+
+.special-font {
+    font-family: 'cool7-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool8-font';
+    src: url(../font/Lastime\ Echoes\ DEMO\ VERSION.otf);
+}
+
+.special-font {
+    font-family: 'cool8-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool9-font';
+    src: url(../font/Petron\ PERSONAL\ USE\ ONLY!.otf);
+}
+
+.special-font {
+    font-family: 'cool9-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: 'cool10-font';
+    src: url(../font/ROCABE\ Trial.otf);
+}
+
+.special-font {
+    font-family: 'cool10-font';
+    font-size: 70pt;
+    font-variant: inherit;
+}
